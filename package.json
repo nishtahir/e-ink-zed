@@ -1,0 +1,18 @@
+{
+  "name": "e-ink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "install-theme": "./install",
+    "deploy": "npm run build && npm run install-theme",
+    "watch": "nodemon --watch style.json --exec 'npm run deploy'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

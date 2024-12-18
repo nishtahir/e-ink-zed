@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create Zed themes directory if it doesn't exist
+ZED_THEMES_DIR="$HOME/.config/zed/themes"
+mkdir -p "$ZED_THEMES_DIR"
+
+# Copy the theme file
+cp "dist/e-ink.json" "$ZED_THEMES_DIR/"
+
+echo "✓ E-ink theme has been installed to $ZED_THEMES_DIR/e-ink.json"
