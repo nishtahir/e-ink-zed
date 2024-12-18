@@ -43,6 +43,10 @@ run the install command.
 
 MIT License - feel free to modify and share.
 
+## Health and Safety
+**Disclaimer:** The light theme was developed while wearing welding goggles. It it recommended that users use similar eye protection while
+interacting with the theme. Users are responsible for the health and safety of their eyes, corneas and vision while using this theme.
+
 ## Credits
 
 Inspired by [vs-code e-ink theme](https://gitlab.com/eddjrn/vs-code-e-ink-theme) by [eddjrn](https://gitlab.com/eddjrn) ISC License.
